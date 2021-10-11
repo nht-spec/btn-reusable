@@ -14,6 +14,7 @@ import ButtonSizeSM from '../../shareComponents/ButtonSizeSM';
 import ButtonStartIcon from '../../shareComponents/ButtonStartIcon';
 import ButtonText from '../../shareComponents/ButtonText';
 import ButtonTextDisabled from '../../shareComponents/ButtonTextDisabled';
+import ButtonColorDanger from '../../shareComponents/ButtonColorDanger';
 ButtonFeatures.propTypes = {};
 
 function ButtonFeatures() {
@@ -28,10 +29,10 @@ function ButtonFeatures() {
 			<div className='btn-list'>
 				<ButtonDisableShadow />
 				<ButtonDisabled />
+				<ButtonTextDisabled />
 			</div>
 
 			<div className='btn-list'>
-				<ButtonTextDisabled />
 				<ButtonStartIcon />
 				<ButtonEndIcon />
 			</div>
@@ -46,6 +47,7 @@ function ButtonFeatures() {
 				<ButtonColorDefault />
 				<ButtonColorPrimary />
 				<ButtonColorSecondary />
+				<ButtonColorDanger />
 			</div>
 		</div>
 	);
